@@ -1,3 +1,29 @@
+# Fetch
+Fetch and show users from the api - https://jsonplaceholder.typicode.com/users
+User of this app can Add contact, delete contact and Edit/Update contact.
+
+
+# Folder Structure
+
+react-contact-list
+|
+|--public
+|    |--index.html
+|--src
+|    |--components
+|    |      |--AddContact.js
+|    |      |--EditContact.js
+|    |      |--Home.js
+|    |      |--Navbar.js
+|    |--redux/reducers
+|    |      |--contactReducer.js
+|    |--App.js
+|    |--App.test.js
+|    |--index.css
+|    |--index.js
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
