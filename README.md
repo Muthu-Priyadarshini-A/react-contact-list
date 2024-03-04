@@ -5,23 +5,28 @@ User of this app can Add contact, delete contact and Edit/Update contact.
 
 # Folder Structure
 
-react-contact-list
-|
-|--public
-|    |--index.html
-|--src
-|    |--components
-|    |      |--AddContact.js
-|    |      |--EditContact.js
-|    |      |--Home.js
-|    |      |--Navbar.js
-|    |--redux/reducers
-|    |      |--contactReducer.js
-|    |--App.js
-|    |--App.test.js
-|    |--index.css
-|    |--index.js
-
+* [public/](.\contact-list\public)
+  * [index.html](.\contact-list\public\index.html)
+* [src/](.\contact-list\src)
+  * [components/](.\contact-list\src\components)
+    * [AddContact.js](.\contact-list\src\components\AddContact.js)
+    * [EditContact.js](.\contact-list\src\components\EditContact.js)
+    * [Home.js](.\contact-list\src\components\Home.js)
+    * [Navbar.js](.\contact-list\src\components\Navbar.js)
+  * [redux/](.\contact-list\src\redux)
+    * [reducers/](.\contact-list\src\redux\reducers)
+      * [contactReducer.js](.\contact-list\src\redux\reducers\contactReducer.js)
+  * [App.js](.\contact-list\src\App.js)
+  * [App.test.js](.\contact-list\src\App.test.js)
+  * [index.css](.\contact-list\src\index.css)
+  * [index.js](.\contact-list\src\index.js)
+  * [logo.svg](.\contact-list\src\logo.svg)
+  * [reportWebVitals.js](.\contact-list\src\reportWebVitals.js)
+  * [setupTests.js](.\contact-list\src\setupTests.js)
+* [.gitignore](.\contact-list\.gitignore)
+* [package-lock.json](.\contact-list\package-lock.json)
+* [package.json](.\contact-list\package.json)
+* [README.md](.\contact-list\README.md)
 
 
 # Getting Started with Create React App
