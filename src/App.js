@@ -22,7 +22,7 @@ const App = () => {
                             name: contact.name,
                             number: contact.phone,
                             email: contact.email
-                        });
+                        })
                     ))
                 });
             dispatch({ type: 'FETCH_CONTACTS', payload: data });
